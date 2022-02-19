@@ -1,7 +1,6 @@
 public void setup()
 {
   size(500, 500);  
-  background(255);
   noLoop();
 }
 
@@ -13,4 +12,11 @@ public void draw()
 public void mousePressed()
 {
   redraw();
+
+}
+
+public int sheesh(){
+  int joe = ((int)(Math.random() * 5) + 1);
+  
+  return joe;
 }
